@@ -1,0 +1,15 @@
+rodas = ;
+peso = ;
+pessoas = ;
+
+if (rodas == 2 and rodas == 3) {
+	print("A");
+} endif (rodas == 4 and pessoas == 8 and peso == 3500) {
+	print("B");
+} endif (rodas >= 4 ou peso >= 3500 and peso <= 6000) {
+	print("C");
+} endif ((rodas >= 4 and pessoas >= 8) and (rodas >= 4 and peso >= 6000)
+	print("D");
+} else {
+	print("Invalido");
+}
