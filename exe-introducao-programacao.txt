@@ -1,0 +1,10 @@
+VARIÁVEIS            SENTENÇA                                RESULTADO
+1- nota = 10       | nota <= 10                            = true
+2- nota = 06       |
+   faltas = 04     | (nota <= 6) and (faltas <= 3)         = False
+3- convidados = 3  |
+   fumante = False | (convidado > 4) or (fumante == True)  = True
+4- dia =  "qua"    | (dia == "sab") or (dia == "dom")      = False
+5- feriado = True  | not(feriado == False)                 = True
+6- dia = "Ter"     |
+   feriado = False | (dia == "seg") or! (feriado == False) = True
